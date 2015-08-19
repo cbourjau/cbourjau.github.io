@@ -1,0 +1,12 @@
+# Site settings
+title: A PhD's blog
+email: cbourjau@cern.ch
+description: > # this means to ignore newlines until "baseurl:"
+    This blog is primarily intended as a selection of things which I find useful or interesting for my work at ALICE at CERN. But who knows, maybe I will also post some non-work related stuff or nothing at all. Besides of physics I am also interested in entrepreneurship, privacy and politics.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://cbourjau.github.io" # the base hostname & protocol for your site
+twitter_username: cbourjau
+github_username:  cbourjau
+
+# Build settings
+markdown: kramdown
