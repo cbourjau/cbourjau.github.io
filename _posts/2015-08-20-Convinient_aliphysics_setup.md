@@ -44,8 +44,8 @@ $ git merge upstream/master
 
 Last but not least, push that merge into your own remote repository:
 
-<div class="sh">
+{% highlight ruby %}
 $ git push origin master
+{% endhighlight %}
 
-</div>
 
