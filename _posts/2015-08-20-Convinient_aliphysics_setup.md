@@ -8,8 +8,8 @@ I don't see the point in using this git workbench thingy. For me it just gets in
 
 
 {% highlight ruby %}
-~/alicesw/aliphysics$ rm -r master
-~/alicesw/aliphysics$ git clone ssh://git@gitlab.cern.ch:7999/cbourjau/aliphysics.git master
+~/alicesw/aliphysics/master$ rm -r src
+~/alicesw/aliphysics/master$ git clone ssh://git@gitlab.cern.ch:7999/cbourjau/aliphysics.git src
 {% endhighlight %}
 
 
@@ -22,7 +22,7 @@ Furthermore, gitlab has nice reviewing tools like commenting on individual lines
 In order to sync the origin with the changes in the upstream repository, one first hast to add the url for the upstream repository:
 
 {% highlight ruby %}
-$ cd master
+$ cd src
 $ git remote add upstream <http://git.cern.ch/pub/AliPhysics>
 {% endhighlight %}
 
