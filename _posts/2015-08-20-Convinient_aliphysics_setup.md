@@ -15,7 +15,7 @@ I don't see the point in using this git workbench thingy. For me it just gets in
 
 Now, your local repository (called "origin") is linked up with your own online aliphysics repository to which you have commit rights.
 
-Now, you can develop in this repository to you liking and just push whenever you like to backup your process! Once everything is working, anyone with commit rights to the upstream aliphysics can just pull your changes from your repository and merge them into the original one.
+Now, you can develop in this repository to you liking and just push whenever you like to backup your process! Once everything is working, anyone with commit rights to the upstream aliphysics can just pull your changes from your repository and merge them into the original one. *Update: But make sure to make your development in a new branch, so that your master branch always shares the same history as the ubstream one!*
 
 Furthermore, gitlab has nice reviewing tools like commenting on individual lines etc. which make collaborating munch easier.
 
